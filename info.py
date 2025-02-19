@@ -31,7 +31,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/2d68d2c0fbf9385d4
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1058015838 1945334264').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-2086443129 -1001638006524').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001638006524').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1058015838 1945334264').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -61,7 +61,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'heroflix')
 TUTORIAL = environ.get('TUTORIAL', 'OpenMSLink')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-2030123272'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002120175380'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MiniStudiosAdmin_bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
