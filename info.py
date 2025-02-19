@@ -26,7 +26,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/26e6f0b8df376da856c80.jpg https://te.legra.ph/file/26e6f0b8df376da856c80.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/e709716b0b99ed944a533.jpg")
-MELCOW_PIC = environ.get("MELCOW_PIC", "https://graph.org/file/75d4fcc66598ea1ef4941.jpg")
+MELCOW_PIC = environ.get("MELCOW_PIC", "https://te.legra.ph/file/26e6f0b8df376da856c80.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/2d68d2c0fbf9385d48d70.jpg")
 
 # Admins, Channels & Users
@@ -62,7 +62,7 @@ TUTORIAL = environ.get('TUTORIAL', 'OpenMSLink')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-2030123272'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '1674791925')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MiniStudiosAdmin_bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
