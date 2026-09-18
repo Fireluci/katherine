@@ -16,7 +16,7 @@ API_ID = int(environ.get('API_ID', '28780052'))
 API_HASH = environ.get('API_HASH', '2bc69d5385f8e8b62c682883b97621fd')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6794004693:AAHbsBK33dFX1_1EbNj7n6Bczw7zQhbUgHA')
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mini:mini@mini.lywdzk6.mongodb.net/?retryWrites=true&w=majority&appName=mini")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mini")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mini')
 
